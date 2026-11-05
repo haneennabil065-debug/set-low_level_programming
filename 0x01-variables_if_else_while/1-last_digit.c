@@ -25,6 +25,8 @@ int main(void)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n",
 		       n, last_digit);
 
+	return (0);
+}
 
 cat > 0x01-variables_if_else_while/1-last_digit.c <<'EOF'
 #include <stdlib.h>
