@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Prints hexadecimal numbers
- *
- * Return: Always 0 (Success)
- */
+* main - Prints hexadecimal numbers
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-    int number;
+	int number;
 
-    for (number = 0; number <= 9; number++)
-        putchar(number + '0');
+	for (number = 0; number <= 9; number++)
+		putchar(number + '0');
 
-    for (number = 0; number < 6; number++)
-        putchar(number + 'a');
+	for (number = 0; number < 6; number++)
+		putchar(number + 'a');
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
